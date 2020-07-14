@@ -1,0 +1,224 @@
+@media(max-width:1200px) {
+    .news__item--left {
+        margin-right: 20px;
+    }
+    .form__inner {
+        background-image: none;
+    }
+    .form__item {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:990px) {
+    /* Slider */
+    .slider__inner {
+        padding: 130px 150px 0px;
+    }
+    /* Services */
+    .services__top {
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services__inner {
+        padding-top: 30px;
+    }
+    .services__top-btn {
+        margin-top: 30px;
+    }
+    .services__link {
+        margin-top: 15px;
+        display: inline-block;
+        border: 1px solid black;
+        padding: 8px;
+        position: static;
+    }
+    .services__item {
+        width: 100%;
+        min-height: 300px;
+        padding: 20px 125px 20px;
+    }
+    .services__btn {
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+    .services__bottom-text {
+        margin-bottom: 15px;
+    }
+    /* Form */
+    .form__inner {
+        background-image: none;
+    }
+    .form-in {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-in-right .form__label {
+        display: none;
+    }
+    .form-in-right .about__btn {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .form-in-right {
+        text-align: center;
+    }
+    /* Out */
+    .our__inner {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .our__item {
+        padding: 15px;
+    }
+    .our__title {
+        margin: 15px 0px;
+    }
+    /* News */
+    .news__item {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .news__item--block {
+        margin-bottom: 25px;
+        padding: 50px 70px;
+    }
+    .arrows {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .news__item--block,
+    .arrows {
+        max-width: 100%;
+    }
+    .news__items--right {
+        max-width: 700px;
+    }
+    .news__item--left {
+        margin-right: 0px;
+    }
+    /* Footer */
+    .footer__item {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer__map iframe {
+        max-width: 100%;
+    }
+    span.phoneP {
+        margin-left: 35px;
+    }
+}
+
+@media (max-width:768px) {
+    /* Header */
+    .header__inner {
+        flex-direction: column;
+    }
+    .header__item--left {
+        padding: 20px 0;
+    }
+    .header__item {
+        margin-bottom: 20px;
+    }
+    .menu__item {
+        margin: 0;
+    }
+    /* Slider */
+    .slider__inner {
+        padding: 150px 75px 0px;
+    }
+    .slider__name {
+        font-size: 24px;
+    }
+    .slider__text {
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width:575px) {
+    /* Header */
+    .header__item--left {
+        flex-direction: column;
+    }
+    .header__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__link.second {
+        margin-bottom: 25px;
+    }
+    /* Slider */
+    .slider {
+        /* min-height: 400px; */
+    }
+    .slider__inner {
+        padding: 50px 40px 0px;
+    }
+    .slider__name {
+        margin-bottom: 25px;
+    }
+    /* Services */
+    .services__top-left {
+        padding: 0;
+        text-align: center;
+    }
+    .services__top-left:before {
+        display: none;
+    }
+    .services__item {
+        padding: 10px 20px 10px;
+        margin-bottom: 20px;
+    }
+    .services__link {
+        display: inline-block;
+        max-width: 250px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .services__btn {
+        display: inline-block;
+        max-width: 250px;
+        width: 100%;
+    }
+    .services__btn-color {
+        width: 100%;
+    }
+    .services__bottom-text {
+        margin-bottom: 0;
+    }
+    .prev,
+    .next {
+        display: none;
+    }
+    /* About */
+    .about__inner {
+        text-align: center;
+    }
+    /* Form */
+    .form__inner {
+        padding: 20px;
+    }
+    /* Our */
+    .our__inner {
+        padding: 20px 10px;
+    }
+    /* News */
+    .news__items--right {
+        flex-wrap: wrap;
+        max-width: 300px;
+        justify-content: center;
+    }
+    .news__item--right {
+        margin: 30px 0px;
+        text-align: center;
+    }
+}
