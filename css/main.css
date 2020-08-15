@@ -7,7 +7,7 @@ a {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     color: #323232;
 }
@@ -17,7 +17,6 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-
 
 /* Header */
 
@@ -40,12 +39,12 @@ body {
 }
 
 .header__link {
-    color: #D3D2D2;
+    color: #d3d2d2;
     letter-spacing: 0.25px;
 }
 
 .header__link i {
-    color: #FFC222;
+    color: #ffc222;
 }
 
 .header__text {
@@ -54,7 +53,7 @@ body {
 
 .header__item--right {
     padding: 12px 20px;
-    background-color: #FFC222;
+    background-color: #ffc222;
     font-size: 16px;
 }
 
@@ -80,7 +79,6 @@ body {
     border: 1px solid transparent;
 }
 
-
 /* Menu */
 
 .menu__item:first-child {
@@ -88,9 +86,8 @@ body {
 }
 
 .menu__item:hover {
-    border-color: #FFC222;
+    border-color: #ffc222;
 }
-
 
 /* Slider */
 
@@ -119,7 +116,7 @@ body {
     font-family: "PT Serif", serif;
     font-size: 18px;
     line-height: 24px;
-    color: #D3D2D2;
+    color: #d3d2d2;
     margin-bottom: 50px;
 }
 
@@ -136,7 +133,7 @@ body {
 .slider__btn {
     position: relative;
     display: inline-block;
-    transition: all .2s linear;
+    transition: all 0.2s linear;
     cursor: pointer;
 }
 
@@ -158,7 +155,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    transition: all .2s linear;
+    transition: all 0.2s linear;
 }
 
 .prev {
@@ -171,16 +168,15 @@ body {
 
 .prev:hover {
     border-color: #fff;
-    background-color: #FFC222;
+    background-color: #ffc222;
     cursor: pointer;
 }
 
 .next:hover {
     border-color: #fff;
-    background-color: #FFC222;
+    background-color: #ffc222;
     cursor: pointer;
 }
-
 
 /* Services */
 
@@ -218,7 +214,7 @@ body {
 }
 
 .services__top-text {
-    color: #5E5E5E;
+    color: #5e5e5e;
     font-family: "PT Serif", serif;
     letter-spacing: 0.1px;
     line-height: 18px;
@@ -227,15 +223,15 @@ body {
 .services__top-btn a {
     padding: 10px 40px;
     color: #373636;
-    border: 3px solid #E6E6E6;
+    border: 3px solid #e6e6e6;
     display: inline-block;
     line-height: 24px;
     letter-spacing: 0.25px;
-    transition: all .2s linear;
+    transition: all 0.2s linear;
 }
 
 .services__top-btn a:hover {
-    background-color: #E6E6E6;
+    background-color: #e6e6e6;
 }
 
 .services__bottom {
@@ -261,7 +257,7 @@ body {
 }
 
 .services__bottom-text {
-    color: #5E5E5E;
+    color: #5e5e5e;
     font-family: "PT Serif", serif;
     letter-spacing: 0.1px;
     line-height: 18px;
@@ -290,7 +286,6 @@ body {
 .services__img {
     height: 57px;
 }
-
 
 /* About */
 
@@ -331,7 +326,6 @@ body {
 .about__icon {
     color: #303030;
 }
-
 
 /* Form */
 
@@ -403,7 +397,6 @@ body {
     color: #282828;
 }
 
-
 /* Our */
 
 .our {
@@ -424,7 +417,7 @@ body {
 }
 
 .our__icon {
-    border: 2px solid #FFC222;
+    border: 2px solid #ffc222;
     padding: 13px;
     display: inline-block;
     color: #fff;
@@ -443,7 +436,6 @@ body {
     line-height: 24px;
     font-family: "PT Serif", serif;
 }
-
 
 /* News */
 
@@ -548,7 +540,6 @@ body {
     margin-bottom: 40px;
 }
 
-
 /* Arrows */
 
 .arrows {
@@ -562,7 +553,7 @@ body {
     color: #9e9c9c;
     border: 1px solid #dadada;
     display: inline-block;
-    transition: all .2s linear;
+    transition: all 0.2s linear;
     cursor: pointer;
 }
 
@@ -581,7 +572,6 @@ body {
     color: #fff;
     border-color: #ffc222;
 }
-
 
 /* Footer */
 
